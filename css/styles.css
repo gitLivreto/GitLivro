@@ -7009,6 +7009,7 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+  font-size: 2rem;
 }
 
 .mb-5 {
@@ -11003,10 +11004,14 @@ html {
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 .masthead .masthead-avatar {
   width: 15rem;
+}
+
+.textsobre {
+  font-size: 1.5rem;
 }
 
 @media (min-width: 992px) {
@@ -11019,7 +11024,7 @@ html {
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
-    font-size: 1.5rem;
+    font-size: 4rem;
   }
 }
 .portfolio .portfolio-item {
