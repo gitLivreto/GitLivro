@@ -11083,6 +11083,7 @@ html {
   text-align: justify;
   text-indent: 50px;
   line-height: 1.9em;
+  color: black;
 }
 
 .p-nocap{
@@ -11091,6 +11092,7 @@ html {
   text-align: justify;
   text-indent: 50px;
   line-height: 1.9em;
+  color: black;
 }
 
 .p-cap::first-letter {
@@ -11098,4 +11100,8 @@ html {
   float: left;
   font-size: 3em;
   margin: 0 .2em 0 0;
+}
+.description{
+  background-color: var(--bs-gray-dark);
+  width: 100%;
 }
