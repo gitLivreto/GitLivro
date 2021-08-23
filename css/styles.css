@@ -308,6 +308,7 @@ label {
 
 button {
   border-radius: 0;
+  color: pink;
 }
 
 button:focus:not(:focus-visible) {
@@ -6355,6 +6356,7 @@ textarea.form-control-lg {
 
 .d-block {
   display: block !important;
+  height: 60rem;
 }
 
 .d-grid {
