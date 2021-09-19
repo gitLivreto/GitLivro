@@ -5427,6 +5427,13 @@ textarea.form-control-lg {
   border-radius: 0;
 }
 
+@media (max-width: 425px) {
+  .logol{
+    position: relative;
+    width: 260px;
+  }
+}
+
 @media (max-width: 575.98px) {
   .modal-fullscreen-sm-down {
     width: 100vw;
