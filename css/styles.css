@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 /*!
 * Start Bootstrap - Freelancer v7.0.3 (https://startbootstrap.com/theme/freelancer)
 * Copyright 2013-2021 Start Bootstrap
@@ -273,6 +274,10 @@ kbd kbd {
 
 figure {
   margin: 0 0 1rem;
+}
+
+.profe{
+  border-radius: 12px;
 }
 
 img,
@@ -3942,6 +3947,27 @@ textarea.form-control-lg {
   background-color: #1abc9c;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
   flex: 1 1 auto;
@@ -4748,6 +4774,12 @@ textarea.form-control-lg {
   color: #066173;
 }
 
+.t-rows{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .alert-warning {
   color: #997404;
   background-color: #fff3cd;
@@ -5315,8 +5347,7 @@ textarea.form-control-lg {
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
-  border: 0.125rem solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.75rem;
+  border-radius: 1rem;
   outline: 0;
 }
 
@@ -11051,6 +11082,12 @@ html {
     font-size: 4rem;
   }
 }
+
+.p-nocapa{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
