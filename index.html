@@ -233,7 +233,7 @@
                 <section id="." class="section-bg">
                     <div class="container" data-aos="fade-up">
                       <div class="section-header">
-                        <h3 class="section-title">Sessão falando os criadores desse projeto :)</h3>
+                        <h3 class="tituloproj">Criadores do projeto</h3>
                         <br>
                         <span class="section-divider"></span>
                         <p class="section-description"></p>
@@ -242,7 +242,7 @@
                         <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                           <div class="member">
                             <div class="pic"><img class="equipe" src="assets/img/equipe/lois.jpeg" alt=""></div>
-                            <h4>Luís Reis</h4>
+                            <h4 class="nomes">Luís Reis</h4>
                             <span>Olá, me chamo Luís Reis do 1°C :D</span>
                             <div class="social">
                               <a href="https://www.instagram.com/reisluisz/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -255,7 +255,7 @@
                         <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                           <div class="member">
                             <div class="pic"><img class="equipe" src="assets/img/equipe/rafael.jpeg" alt=""></div>
-                            <h4>Rafael Lima</h4>
+                            <h4 class="nomes">Rafael Lima</h4>
                             <span>Blá blá blá</span>
                             <div class="social">
                               <a href=""><i class="fab fa-github" target="_blank"></i></a>
@@ -267,8 +267,8 @@
                         <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                           <div class="member">
                             <div class="pic"><img class="equipe" src="assets/img/equipe/yvri.jpeg" alt=""></div>
-                            <h4>Yuri Candido</h4>
-                            <span>Blá blá blá</span>
+                            <h4 class="nomes">Yuri Candido</h4>
+                            <span>Sou o Yuri! 1°C de Informática para Web</span>
                             <div class="social">
                               <a href="https://github.com/projects-yuri" target="_blank"><i class="fab fa-github"></i></a>
                               <a href="https://wa.me/5511996338103" target="_blank"><i class="fab fa-whatsapp"></i></a>
@@ -283,36 +283,29 @@
         <!-- Footer-->
         <footer class="footer text-center" id="contato">
             <div class="container" >
-                <div class="row">
-                    <h2 class="center">Fale conosco!</h2>
+                <div class="rowform">
+                    <h2 class="titulo">Fale conosco!</h2>
                     <!-- Footer Location-->
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-xl-7">
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- * * SB Forms Contact Form * *-->
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- This form is pre-integrated with SB Forms.-->
-                            <!-- To make this form functional, sign up at-->
-                            <!-- https://startbootstrap.com/solution/contact-forms-->
-                            <!-- to get an API token!-->
-                            <form data-sb-form-api-token="API_TOKEN">
+                            <form method="POST" action="#">
                                 <!-- Name input-->
                                 <br>
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required"/>
                                     <label for="name">Nome completo*</label>
                                     <div class="invalid-feedback" data-sb-feedback="name:required">Um nome é necessário.</div>
                                 </div>
                                 <!-- Email address input-->
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                    <label for="email">Email*</label>
+                                    <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email"/>
+                                    <label for="email">E-mail*</label>
                                     <div class="invalid-feedback" data-sb-feedback="email:required">Um email é necessário.</div>
                                     <div class="invalid-feedback" data-sb-feedback="email:email">Este email não é válido.</div>
                                 </div>
                                 <!-- Phone number input-->
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                    <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required"/>
                                     <label for="phone">Número de celular</label>
                                     <!--<div class="invalid-feedback" data-sb-feedback="phone:required">Um número de celular é necessário.</div>
                                 </div>-->
@@ -330,9 +323,7 @@
                                 <div class="d-none" id="submitSuccessMessage">
                                     <div class="text-center mb-3">
                                         <div class="fw-bolder">Formulário enviado com sucesso!</div>
-                                        To activate this form, sign up at
                                         <br/>
-                                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                     </div>
                                 </div>
                                 <!-- Submit error message-->
@@ -341,7 +332,9 @@
                                 <!-- an error submitting the form-->
                                 <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error ao enviar!<br>Verifique se preencheu todos os requisitos ou atualize a página!</div></div>
                                 <!-- Submit Button-->
-                                <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button>
+                                <div class="button">
+                                    <input type="submit" name="button" value="Enviar">
+                                </div>
                             </form>
                         </div>
                     </div>
