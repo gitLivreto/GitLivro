@@ -282,64 +282,61 @@
         </section>
         <!-- Footer-->
         <footer class="footer text-center" id="contato">
-            <div class="container" >
-                <div class="rowform">
-                    <h2 class="titulo">Fale conosco!</h2>
-                    <!-- Footer Location-->
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8 col-xl-7">
-                            <form action="https://formsubmit.co/github.livreto@gmail.com" method="POST">
-                                <!-- Name input-->
-                                <br>
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required"/>
-                                    <label for="name">Nome completo*</label>
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">Um nome é necessário.</div>
-                                </div>
-                                <!-- Email address input-->
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email"/>
-                                    <label for="email">E-mail*</label>
-                                    <div class="invalid-feedback" data-sb-feedback="email:required">Um email é necessário.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="email:email">Este email não é válido.</div>
-                                </div>
-                                <!-- Phone number input-->
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required"/>
-                                    <label for="phone">Número de celular</label>
-                                    <!--<div class="invalid-feedback" data-sb-feedback="phone:required">Um número de celular é necessário.</div>
-                                </div>-->
-                                <br>
-                                <!-- Message input-->
-                                <div class="form-floating mb-3">
-                                    <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                    <label for="message">Mensagem*</label>
-                                    <div class="invalid-feedback" data-sb-feedback="message:required">É necessário preencher está parte para concluir o formulário.</div>
-                                </div>
-                                <!-- Submit success message-->
-                                <!---->
-                                <!-- This is what your users will see when the form-->
-                                <!-- has successfully submitted-->
-                                <div class="d-none" id="submitSuccessMessage">
-                                    <div class="text-center mb-3">
-                                        <div class="fw-bolder">Formulário enviado com sucesso!</div>
-                                        <br/>
+            <section class="secform">
+                <div class="contai">
+                    <div class="contactInfo">
+                        <div>
+                            <h2>Info de Contato</h2>
+                            <ul class="info">
+                                <li>
+                                    <span><img src="assets/contactassets/location_on_black_48dp.svg"></span>
+                                    <span class="noc">R. Bélgica, 88 - Jardim Alvorada
+                                          Ribeirão Pires, SP
+                                          09402-060</span>
+                                </li>
+                                <li>
+                                    <span><img src="assets/contactassets/email_black_48dp.svg"></span>
+                                    <span>github.livreto@gmail.com</span>
+                                </li>
+                                <li>
+                                    <span><img src="assets/contactassets/call_black_48dp.svg"></span>
+                                    <span>(11) 4825-4470</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="sci">
+                            <li><a href="https://www.facebook.com/etecrpmcm/"><img src="assets/contactassets/face.png"></a></li>
+                            <li><a href="https://instagram.com/etecmcm?utm_medium=copy_link"><img src="assets/contactassets/insta.png"></a></li>
+                        </ul>
+                    </div>
+                    <div class="contactForm">
+                        <h2 class="tit">Envie uma mensagem</h2>
+                        <form action="https://formsubmit.co/github.livreto@gmail.com" method="POST">
+                                <div class="formBox">
+                                    <div class="inputBox w50">
+                                        <input type="text" name="name" required>
+                                        <span>Nome</span>
                                     </div>
-                                </div>
-                                <!-- Submit error message-->
-                                <!---->
-                                <!-- This is what your users will see when there is-->
-                                <!-- an error submitting the form-->
-                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error ao enviar!<br>Verifique se preencheu todos os requisitos ou atualize a página!</div></div>
-                                <!-- Submit Button-->
-                                <div class="button">
-                                    <input type="submit" name="button" value="Enviar">
+                                    <div class="inputBox w50">
+                                        <input type="email" name="email" required>
+                                        <span>Endereço de E-mail</span>
+                                    </div>
+                                    <div class="inputBox w50">
+                                        <input type="text" name="phone" required>
+                                        <span>Número de Celular</span>
+                                    </div>
+                                    <div class="inputBox w100">
+                                        <textarea required></textarea>
+                                        <span>Escreva sua mensagem aqui.</span>
+                                    </div>
+                                    <div class="inputBox w100">
+                                        <input type="submit" value="Enviar">
+                                    </div>
                                 </div>
                             </form>
                         </div>
-                    </div>
                 </div>
-            </div>
+            </section>
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
