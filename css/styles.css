@@ -11552,6 +11552,12 @@ html {
 
 #team .member .social {
   margin-top: 15px;
+  font-size: 20px;
+}
+
+.social
+{
+  font-size: 22px;
 }
 
 #team .member .social a {
@@ -11565,6 +11571,7 @@ html {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+  font-size: 20px;
 }
 
 .pic{
