@@ -5858,9 +5858,10 @@ textarea.form-control-lg {
   background: #0d948b;
 }
 
-@media (max-width : 1200px)
+@media (max-width:1200px)
 {
-  .contai{
+  .contai
+  {
     width: 90%;
     min-width: auto;
     margin: 20px;
@@ -5875,7 +5876,7 @@ textarea.form-control-lg {
   }
   .contai .contactForm{
     position: relative;
-    width: calc(100% - 35px);
+    width: calc(100% - 350px);
     padding-left: 0;
     margin-left: 0;
     padding: 40px;
@@ -5884,17 +5885,23 @@ textarea.form-control-lg {
   }
 }
 
-@media (max-width : 991px){
-  .secform{
+@media (max-width:991px)
+{
+  .secforms
+  {
     background: #fff38e;
   }
-  .secform::before{
+
+  .secforms::before
+  {
     display: none;
   }
-  .contai{
+  .contai
+  {
     display: flex;
     flex-direction: column-reverse;
   }
+  
   .contai .contactForm{
     width: 100%;
     height: auto;
@@ -5903,6 +5910,7 @@ textarea.form-control-lg {
     width: 100%;
     height: auto;
     flex-direction: row;
+    margin-top: 60%;
   }
   .contai .contactInfo ul.sci{
     position: relative;
@@ -5912,8 +5920,7 @@ textarea.form-control-lg {
   }
 }
 
-@media(max-width : 600px)
-{
+@media(max-width : 600px){
   .contai .contactForm{
     padding: 25px;
   }
@@ -5921,6 +5928,7 @@ textarea.form-control-lg {
     padding: 25px;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 150px;
   }
   .contai .contactInfo ul.sci{
     margin-top: 40px;
@@ -5977,7 +5985,7 @@ textarea.form-control-lg {
   border-radius: 6px;
 }
 
-.secform
+.secforms
 {
   display: flex;
   justify-content: center;
@@ -5986,7 +5994,7 @@ textarea.form-control-lg {
   background: #095a55;
 }
 
-.secform::before
+.secforms::before
 {
   content: '';
   position: absolute;
@@ -7784,7 +7792,12 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: rgb(68, 78, 90);
+  background-color: rgb(63, 115, 158);
+}
+
+.bg-nah
+{
+  background-color: rgb(53, 94, 128);
 }
 
 .bg-secondary {
