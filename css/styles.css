@@ -5508,6 +5508,22 @@ textarea.form-control-lg {
     position: relative;
     width: 260px;
   }
+  audio{
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  audio{
+    margin-bottom: 30px;
+    align-items: center;
+  }
+}
+
+@media (max-width : 600px) {
+  audio{
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -5575,6 +5591,9 @@ textarea.form-control-lg {
   .modal-fullscreen-lg-down .modal-footer {
     border-radius: 0;
   }
+  audio{
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 1199.98px) {
   .modal-fullscreen-xl-down {
@@ -5618,6 +5637,9 @@ textarea.form-control-lg {
   }
   .modal-fullscreen-xxl-down .modal-footer {
     border-radius: 0;
+  }
+  audio{
+    margin-bottom: 30px;
   }
 }
 .tooltip {
